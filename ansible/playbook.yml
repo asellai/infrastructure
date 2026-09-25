@@ -1,0 +1,9 @@
+---
+- name: Configure application servers
+  hosts: all
+  become: true
+  tasks:
+    - name: Ensure Docker is installed
+      ansible.builtin.package:
+        name: docker.io
+        state: present
