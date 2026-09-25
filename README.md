@@ -6,3 +6,6 @@ DevOps infrastructure repository for managing cloud resources, containers, and d
 - Terraform for infrastructure provisioning
 - Ansible for configuration management
 - Docker for containerization
+
+## Deployment
+Run `terraform apply` followed by `ansible-playbook ansible/playbook.yml`.
